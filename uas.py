@@ -1,3 +1,6 @@
+#BAGAS SATYA D. 20083000141. 2B
+#FTI_UNMER
+
 import os
 import sys
 import datetime

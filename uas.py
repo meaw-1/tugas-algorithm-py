@@ -7,16 +7,16 @@ x = datetime.datetime.now()
 
 gol = [1,2,3]
 gaji_p = [2500000,4500000,6500000]
-
-print("="*15)
-print("PERHITUNGAN GAJI KARYAWAN CV.LOGOS")
-print("="*15)
-print("!!! DIWAJIBKAN MENGISI DATA DIBAWAH !!!")
-nama =         input("NAMA                = ")
-golongan = int(input("golongan            = "))
-jk =           input("JENIS KELAMIN (L/P) = ")
-sk =           input("STATUS KAWIN        = ")
-ja =       int(input("JUMLAH ANAK         = "))
+os.system('cls')
+print("="*70)
+print(" "*10,"PERHITUNGAN GAJI KARYAWAN CV.LOGOS")
+print("="*70)
+print(" "*10,"!!! DIWAJIBKAN MENGISI DATA DIBAWAH !!!")
+nama =         input("NAMA                 " + " "*10)
+golongan = int(input("golongan             " + " "*10))
+jk =           input("JENIS KELAMIN (L/P)  " + " "*10)
+sk =           input("STATUS KAWIN         " + " "*10)
+ja =       int(input("JUMLAH ANAK          " + " "*10))
 os.system('cls')
 if golongan == 1:
 	i = 0
@@ -58,4 +58,3 @@ print("Biaya Jabatan   "," "*10,biaya_jbtn)
 print("Iuran Pensiun   "," "*10,iuran_p)
 print("Iuran Organisasi"," "*10,iuran_o)
 print(">>Gaji Netto    "," "*10,gaji_net)
-
